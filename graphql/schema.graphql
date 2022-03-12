@@ -1,7 +1,7 @@
 type Movie {
   id: Int!
   name: String!
-  scroe: Int!
+  score: Int!
 }
 
 type Query {

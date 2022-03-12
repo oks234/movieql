@@ -34,3 +34,13 @@ export const deleteMovie = (id) => {
     return false;
   }
 };
+
+export const addMovie = (name, score) => {
+  const newMovie = {
+    id: getMovies().length + 1,
+    name,
+    score,
+  };
+  movies.push(newMovie);
+  return newMovie;
+};

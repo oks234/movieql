@@ -6,17 +6,17 @@
   "repository": "https://github.com/oks234/movieql",
   "license": "MIT",
   "dependencies": {
+    "@babel/node": "^7.16.8",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-fetch": "^3.1.5",
     "graphql-yoga": "^1.18.3",
-    "node-fetch": "^3.2.3",
     "nodemon": "^2.0.15"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
-  "devDependencies": {
-    "@babel/node": "^7.16.8",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-3": "^6.24.1"
-  }
+  "devDependencies": {}
 }

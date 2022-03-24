@@ -5,6 +5,7 @@ type Movie {
   summary: String!
   language: String!
   medium_cover_image: String!
+  year: Int!
 }
 
 type Query {

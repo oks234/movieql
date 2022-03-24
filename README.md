@@ -14,6 +14,11 @@ Movie API with Graphql
 
 ## 히스토리
 
+### 2022. 3. 24.
+
+- Movie type에 year, description_intro 추가
+- Movies Query에 sort_by, genre 추가
+
 ### 2022. 3. 12.
 
 시작! 종료!
